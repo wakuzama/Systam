@@ -1,0 +1,54 @@
+page-new-ticket {
+
+    .network-btn-color{
+        color:#ffa500
+    }
+
+    // .position{
+    //     margin-right: 50px;
+    // }
+
+    .lable-left{
+        // background-color: #ffa500 ;
+        float: left ;
+        width: 40% ;
+    }
+    .drop-right{
+        // background-color: red ;
+        float: left ;
+        // margin-left: 150px;
+        // height: 40px;
+        width: 40%;
+    }
+    .drop-right1{
+        float: right ;
+        margin-right: 10px;
+        width: 15% ;
+    }
+    .photosize{
+        width: 50% ;
+        
+        margin-left: 25%;
+        
+        border-width:1px ;
+        height: 100px;
+
+    }
+    .btn-cam-color{
+              height: 20px;
+              color: #444444 ;
+    }
+
+    .butoncamera{
+        margin-left: 35%;
+    }
+    
+    .save-position{
+        margin-left: 10px;
+    }
+    
+    .btn-img{
+        height: 80px;
+        width: 80px;
+    }
+}

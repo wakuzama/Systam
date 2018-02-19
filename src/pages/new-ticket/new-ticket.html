@@ -1,0 +1,153 @@
+<!--
+  Generated template for the NewTicketPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  
+    <!-- <ion-navbar><img src="assets/logo5.png" class="navimg">
+      <ion-title>INICIO</ion-title>
+    </ion-navbar> -->
+  <ion-navbar color="app-colr">
+    <ion-title style="text-align:left">Nuevo Ticket
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="addEvent()">
+      <!-- <i class="fa fa-circle-o" aria-hidden="true"></i> -->
+      <!-- <i class="fa fa-circle" aria-hidden="true" style="background-color:yellow"></i> -->
+      <ion-icon name="ios-radio-button-on-outline" class="network-btn-color" id="net-btn"></ion-icon>
+      </button>
+      <button ion-button icon-only (click)="addEvent()" >
+        <!-- <ion-icon name="add"></ion-icon> -->
+        
+        <ion-icon name="ios-menu"  id="net-btn"></ion-icon>
+        
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+  </ion-header>
+
+
+<ion-content padding>
+
+<ion-list>
+  <ion-item>
+  <div class="lable-left">
+      Tipo Entrada
+  </div>
+  <div class="drop-right">
+    <select>
+        <option value="option1">Option1</option>
+        <option value="option2">Option2</option>
+        <option value="option3">Option3</option>
+        <option value="option4">Option4</option>
+      </select>
+    </div>
+  </ion-item>
+
+  <ion-item>
+      <div class="lable-left">
+      Activo
+      </div>
+      <div class="drop-right">
+       <select>
+           <option value="option1">Activo</option>
+           <option value="option2">Disable</option>
+         </select>
+      </div>
+      <div class="drop-right1">
+          <button ion-button  icon-only style="padding:0px">
+              <ion-icon name="ios-funnel"></ion-icon>
+            </button>
+      </div>
+     </ion-item>
+
+     <ion-item>
+        <div class="lable-left">
+        Tipo 
+        </div>
+        <div class="drop-right">
+         <select>
+             <option value="option1">Option1</option>
+             <option value="option2">Option2</option>
+             <option value="option3">Option3</option>
+             <option value="option4">Option4</option>
+           </select>
+        </div>
+       </ion-item>
+
+       <ion-item>
+          <div class="lable-left">
+          Tipologia1
+          </div>
+          <div class="drop-right">
+    <select>
+        <option value="option1">Option1</option>
+        <option value="option2">Option2</option>
+        <option value="option3">Option3</option>
+        <option value="option4">Option4</option>
+      </select>
+          </div>
+  </ion-item>
+
+  <ion-item>
+      <div class="lable-left">
+      Tipologia2
+    </div>
+    <div class="drop-right">
+       <select>
+           <option value="option1">Option1</option>
+           <option value="option2">Option2</option>
+           <option value="option3">Option3</option>
+           <option value="option4">Option4</option>
+         </select>
+    </div>
+     </ion-item>
+
+     <ion-item>
+        <div class="lable-left">
+        Tipologia3
+      </div>
+      <div class="drop-right">
+         <select>
+             <option value="option1">Option1</option>
+             <option value="option2">Option2</option>
+             <option value="option3">Option3</option>
+             <option value="option4">Option4</option>
+           </select>
+      </div>
+       </ion-item>
+
+       <ion-item>
+          <div class="lable-left">
+          Tipologia4
+        </div>
+        <div class="drop-right">
+           <select>
+               <option value="option1">Option1</option>
+               <option value="option2">Option2</option>
+               <option value="option3">Option3</option>
+               <option value="option4">Option4</option>
+             </select>
+            </div>
+         </ion-item>
+
+         <ion-item >
+           <ion-card class="photosize">
+
+           </ion-card>
+         </ion-item>
+     <div>
+     <div class="lable-left butoncamera">
+     <button ion-button  style="background-color:#c3c3c3"><ion-icon name="md-camera" class="btn-cam-color">
+     </ion-icon> &nbsp; Añadir
+     </button >
+    </div >
+    <div class="save-position" >
+        <button ion-button class="btn-img" clear>  <img src ="../assets/imgs/save-icon.png"> </button>
+    </div>
+  </div>
+</ion-list>
+
+</ion-content>
